@@ -328,7 +328,7 @@ var LoanServiceService = /** @class */ (function () {
                                     }
                                 }
                             });
-                        }, 100);
+                        }, 1000);
                     })];
             });
         });
@@ -1550,7 +1550,7 @@ var AddbankComponent = /** @class */ (function () {
                     clearInterval(_this.interval);
                 }
             });
-        }), 200;
+        }), 10000;
     };
     AddbankComponent.prototype.ngOnDestroy = function () {
         if (this.id1) {
@@ -1910,7 +1910,7 @@ var AddinvestorComponent = /** @class */ (function () {
                     clearInterval(_this.interval);
                 }
             });
-        }), 200;
+        }), 10000;
     };
     AddinvestorComponent.prototype.ngOnDestroy = function () {
         if (this.id1) {
@@ -2092,7 +2092,7 @@ var AddloanComponent = /** @class */ (function () {
                     clearInterval(_this.interval);
                 }
             });
-        }), 200;
+        }), 10000;
     };
     AddloanComponent.prototype.ngOnDestroy = function () {
         if (this.id1) {
@@ -2204,7 +2204,7 @@ var AddspvComponent = /** @class */ (function () {
                     clearInterval(_this.interval);
                 }
             });
-        }), 200;
+        }), 1000;
     };
     AddspvComponent.prototype.ngOnDestroy = function () {
         if (this.id1) {
@@ -2760,7 +2760,7 @@ var CreatepackComponent = /** @class */ (function () {
                     clearInterval(_this.interval);
                 }
             });
-        }), 200;
+        }), 10000;
     };
     CreatepackComponent.prototype.ngOnDestroy = function () {
         if (this.id1) {
@@ -3043,7 +3043,7 @@ var HeaderComponent = /** @class */ (function () {
                     clearInterval(_this.interval);
                 }
             });
-        }), 200;
+        }), 20000;
     };
     HeaderComponent.prototype.ngOnDestroy = function () {
         if (this.id1) {
@@ -3134,7 +3134,7 @@ var HomeComponent = /** @class */ (function () {
                     meta.router.navigate(["login"]);
                 }
             });
-        }), 200;
+        }), 10000;
     };
     HomeComponent.prototype.ngOnDestroy = function () {
         if (this.id1) {
@@ -3375,7 +3375,7 @@ var InvestorComponent = /** @class */ (function () {
                     clearInterval(_this.interval);
                 }
             });
-        }), 200;
+        }), 10000;
     };
     InvestorComponent.prototype.ngOnDestroy = function () {
         if (this.id1) {
@@ -3467,7 +3467,7 @@ var LoginComponent = /** @class */ (function () {
                     clearInterval(_this.interval);
                 }
             });
-        }), 200;
+        }), 10000;
     };
     LoginComponent.prototype.ngOnDestroy = function () {
         if (this.id1) {
@@ -3772,7 +3772,7 @@ var SpvComponent = /** @class */ (function () {
                     clearInterval(_this.interval);
                 }
             });
-        }), 200;
+        }), 10000;
     };
     SpvComponent.prototype.ngOnDestroy = function () {
         if (this.id1) {
@@ -3955,7 +3955,7 @@ var UpdateloanComponent = /** @class */ (function () {
                     clearInterval(_this.interval);
                 }
             });
-        }), 200;
+        }), 10000;
     };
     UpdateloanComponent.prototype.ngOnDestroy = function () {
         if (this.id1) {
@@ -4099,7 +4099,7 @@ var WithdrawComponent = /** @class */ (function () {
                     clearInterval(_this.interval);
                 }
             });
-        }), 200;
+        }), 10000;
     };
     WithdrawComponent.prototype.ngOnDestroy = function () {
         if (this.id1) {
